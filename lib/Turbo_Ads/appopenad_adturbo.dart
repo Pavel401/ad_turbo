@@ -33,7 +33,7 @@ class AppOpenAdTurbo {
   }) async {
     AppOpenAd.load(
       adUnitId: adUnitId,
-      orientation: orientation,
+      // orientation: orientation,
       request: AdRequest(
           keywords: keywords,
           contentUrl: contentUrl,
